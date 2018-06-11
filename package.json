@@ -1,8 +1,8 @@
 {
   "name": "lasso-unpack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "unpack bundle - Generate stats json from lasso bundle",
+  "main": "lib/lasso-unpack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
