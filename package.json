@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "unpack bundle - Generate stats json from lasso bundle",
   "main": "lib/lasso-unpack.js",
+  "bin": {
+    "lasso-unpack": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "lasso",
+    "bundle",
+    "manifest"
+  ],
   "author": "Ajaykumar Prathap",
   "license": "ISC",
   "devDependencies": {
