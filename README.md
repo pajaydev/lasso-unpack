@@ -10,6 +10,14 @@ Usage
 npm install --save-dev lasso-unpack
 
 lasso-unpack <bundle file path>
+````
+or
+
+```
+npm install --save-dev lasso-unpack
+
+const parseBundle = require('./lasso-unpack');
+parseBundle('lib/build.js');
 
 ```
 
@@ -22,11 +30,18 @@ The lasso-stats.json will look like this :
 
 ```json
 {
-  "index.html": "/dist/index.html",
-  "index.js": "/dist/5f0796534fe2892712053b3a035f585b.js",
-  "main.scss": "/dist/5f0796534fe2892712053b3a035f585b.css"
-}
+    "type": "def",
+    "fileName": "src/main",
+    "packageName": "lasso-js-api",
+    "content": "{\n    var add = require('/lasso-js-api$0.0.0/src/add'/*'./add'*/);\n    var jquery = require('/jquery$2.2.4/dist/jquery'/*'jquery'*/);\n    var Greeter = require('/lasso-js-api$0.0.0/src/Greeter.ts'/*'./Greeter.ts'*/);\n\n    jquery(function () {\n        $(document.body).append('2+2=' + add(2, 2));\n        //console.log(greeter);\n        var greeter = new Greeter(\"Ajaykumar\");\n        $(document.body).append(greeter.greet());\n    });\n\n}",
+    "version": "0.0.0",
+    "size": 538,
+    "path": "/lasso-js-api$0.0.0/src/main"
+  }
 ```
+## Example
+input and output example files provided here
+https://github.com/ajay2507/lasso-unpack/tree/master/examples
 
 ## Problem
 
