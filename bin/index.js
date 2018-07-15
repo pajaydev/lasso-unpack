@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 const parseArgs = require('minimist');
 const lassoUnpack = require('../lib/lasso-unpack');
 

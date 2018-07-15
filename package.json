@@ -15,9 +15,13 @@
     "manifest"
   ],
   "author": "Ajaykumar Prathap",
-  "license": "ISC",
-  "devDependencies": {
+  "license": "MIT",
+  "homepage": "https://github.com/ajay2507/lasso-unpack",
+  "dependencies": {
     "acorn": "^5.5.3",
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
     "lasso": "^3.1.4"
   }
 }
