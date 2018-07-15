@@ -1,6 +1,6 @@
 {
   "name": "lasso-unpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "unpack bundle - Generate stats json from lasso bundle",
   "main": "lib/lasso-unpack.js",
   "bin": {
