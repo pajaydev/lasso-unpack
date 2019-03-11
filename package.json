@@ -1,6 +1,6 @@
 {
   "name": "lasso-unpack",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "unpack bundle - Generate stats json from lasso bundle",
   "main": "lib/lasso-unpack.js",
   "bin": {
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/ajay2507/lasso-unpack",
   "dependencies": {
     "acorn": "^5.5.3",
-    "minimist": "1.2.0"
+    "minimist": "1.2.0",
+    "brotli-size": "0.0.3",
+    "gzip-size": "5.0.0"
   },
   "devDependencies": {
     "lasso": "^3.1.4"
