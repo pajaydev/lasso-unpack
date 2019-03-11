@@ -36,6 +36,8 @@ The lasso-stats.json will look like this :
     "content": "{\n    var add = require('/lasso-js-api$0.0.0/src/add'/*'./add'*/);\n    var jquery = require('/jquery$2.2.4/dist/jquery'/*'jquery'*/);\n    var Greeter = require('/lasso-js-api$0.0.0/src/Greeter.ts'/*'./Greeter.ts'*/);\n\n    jquery(function () {\n        $(document.body).append('2+2=' + add(2, 2));\n        //console.log(greeter);\n        var greeter = new Greeter(\"Ajaykumar\");\n        $(document.body).append(greeter.greet());\n    });\n\n}",
     "version": "0.0.0",
     "size": 538,
+    "gzipSize": 120,
+    "brotiSize": 122,
     "path": "/lasso-js-api$0.0.0/src/main"
   }
 ```
