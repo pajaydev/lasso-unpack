@@ -1,4 +1,7 @@
 # lasso-unpack
+[![npm version](https://badge.fury.io/js/lasso-unpack.svg)](https://www.npmjs.com/package/eslint-config-ajay)
+[![Build Status](https://travis-ci.org/pajaydev/lasso-unpack.svg?branch=master)](https://www.npmjs.com/package/lasso-unpack)
+
 plugin to create manifest from the bundle created by Lasso.
 
 Usage

@@ -12,7 +12,8 @@ if (input.length > 0) {
     input.map((fileName) => {
         lassoUnpack(fileName);
     });
-} else {
-    console.log("No input provided\nUsage: lasso-unpack < bundle.js >");
-    return process.exit(1);
+}
+else {
+    console.log('No input provided\nUsage: lasso-unpack < bundle.js >');
+    process.exit(1);
 }

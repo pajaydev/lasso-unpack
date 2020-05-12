@@ -1,29 +1,34 @@
 {
   "name": "lasso-unpack",
-  "version": "1.2.0",
+  "version": "1.3.2",
   "description": "unpack bundle - Generate stats json from lasso bundle",
   "main": "lib/lasso-unpack.js",
   "bin": {
     "lasso-unpack": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint bin/index.js lib/*"
   },
   "keywords": [
     "lasso",
     "bundle",
-    "manifest"
+    "manifest",
+    "unpack",
+    "parse"
   ],
   "author": "Ajaykumar Prathap",
   "license": "MIT",
   "homepage": "https://github.com/ajay2507/lasso-unpack",
   "dependencies": {
-    "acorn": "^5.5.3",
-    "minimist": "1.2.0",
+    "acorn": "6.4.0",
+    "acorn-walk": "^7.1.1",
     "brotli-size": "0.0.3",
-    "gzip-size": "5.0.0"
+    "gzip-size": "5.0.0",
+    "minimist": "1.2.0"
   },
   "devDependencies": {
-    "lasso": "^3.1.4"
+    "lasso": "^3.1.4",
+    "eslint-config-ajay": "^1.0.7"
   }
 }
